@@ -435,4 +435,62 @@ Example :
             </div>
 
 
+_________________________________________________________________________________________________________
+# button
+_________________________________________________________________________________________________________
+
+# Button Styles
+
+
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>
+
+# Button Outline
+
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-light text-dark">Light</button>
+            
+            
+# Button Sizes
+
+Example : 
+
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Default</button>    
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+            
+
+# Block Level Buttons
+
+Example :
+
+            <div class="d-grid">
+              <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+            </div>
+
+
+# Active/Disabled Buttons
+
+Example : 
+
+            <button type="button" class="btn btn-primary active">Active Primary</button>
+            <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+            <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+
+# Spinner Buttons
+
+Example : 
+
+
+
 
