@@ -331,3 +331,49 @@ class = table-borderless
 table-responsive
 
 
+
+________________________________________________________________________________________________
+# Images
+________________________________________________________________________________________________
+
+# Rounded Corners
+class = rounded
+
+# Circle
+
+class = rounded-circle
+
+# Thumbnail
+
+class = img-thumbnail
+
+# Aligning Images
+
+class = float-start
+class = float-end
+
+# Centered Image
+
+class = mx-auto
+
+# Responsive Images
+
+class = img-fluid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
