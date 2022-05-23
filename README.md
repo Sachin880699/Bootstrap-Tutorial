@@ -310,4 +310,19 @@ Example :
 
 
 
+# Table Borderd
+
+class = .table-bordered
+
+# Hover Rows
+
+Class = table-hover
+
+# Dark Table
+
+class = table-dark
+
+# Borderless Table
+
+class = table-borderless
 
