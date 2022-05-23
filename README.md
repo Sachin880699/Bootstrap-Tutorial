@@ -525,4 +525,6 @@ Example :
               <button type="button" class="btn btn-primary">Sony</button>
             </div>
             
-            
+
+# Vertical Button Groups
+
