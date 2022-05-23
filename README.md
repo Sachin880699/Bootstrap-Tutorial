@@ -235,4 +235,79 @@ Example :
                           <p class="bg-secondary text-white">Secondary background color.</p>
                           <p class="bg-dark text-white">Dark grey background color.</p>
                           <p class="bg-light text-dark">Light grey background color.</p>
+____________________________________________________________________________________________
+# Tables 
+____________________________________________________________________________________________
+
+
+Example : 
+
+
+                                                <table class="table">
+                                                    <thead>
+                                                      <tr>
+                                                        <th>Firstname</th>
+                                                        <th>Lastname</th>
+                                                        <th>Email</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td>John</td>
+                                                        <td>Doe</td>
+                                                        <td>john@example.com</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Mary</td>
+                                                        <td>Moe</td>
+                                                        <td>mary@example.com</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>July</td>
+                                                        <td>Dooley</td>
+                                                        <td>july@example.com</td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+
+
+# Striped Rows
+
+The .table-striped class adds zebra-stripes to a table
+
+
+
+Example : 
+
+
+                                    <table class="table table-striped">
+                                        <thead>
+                                          <tr>
+                                            <th>Firstname</th>
+                                            <th>Lastname</th>
+                                            <th>Email</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>John</td>
+                                            <td>Doe</td>
+                                            <td>john@example.com</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Mary</td>
+                                            <td>Moe</td>
+                                            <td>mary@example.com</td>
+                                          </tr>
+                                          <tr>
+                                            <td>July</td>
+                                            <td>Dooley</td>
+                                            <td>july@example.com</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+
+
+
+
 
