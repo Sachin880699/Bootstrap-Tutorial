@@ -361,19 +361,78 @@ class = mx-auto
 class = img-fluid
 
 
+_______________________________________________________________________________________
+# Jumbotron
+_______________________________________________________________________________________
+
+A jumbotron was introduced in Bootstrap 3 as a big padded box for calling extra attention to some special content or information.
 
 
 
+Example :
 
 
 
+            <div class="mt-4 p-5 bg-primary text-white rounded">
+              <h1>Jumbotron Example</h1>
+              <p>Lorem ipsum...</p>
+            </div>
 
 
 
+_______________________________________________________________________________________
+# Alerts
+_______________________________________________________________________________________
+
+# 1) Success
+
+Example :
+
+            <div class="alert alert-success">
+                <strong>Success !</strong> Object successfully created .
+            </div>
 
 
+# Info
+
+This alert box could indicate a neutral informative change or action.
+
+Example :
+
+            <div class="alert alert-info">
+                <strong>Info !</strong> Info warning
+            </div>
+
+# Warning
+
+This alert box could indicate a warning that might need attention.
+
+Example :
+
+            <div class="alert alert-warning">
+                <strong>Warning !</strong> Warning
+            </div>
 
 
+# danger
+
+This alert box could indicate a dangerous or potentially negative action
+
+Example :
+
+            <div class="alert alert-danger">
+                <strong>Danger !</strong> Danger
+            </div>
+
+# Primary
+
+Indicates an important action
+
+Example :
+
+            <div class="alert alert-primary">
+                <strong>Primary !</strong> Primary
+            </div>
 
 
 
