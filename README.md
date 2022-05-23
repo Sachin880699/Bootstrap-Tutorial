@@ -326,3 +326,8 @@ class = table-dark
 
 class = table-borderless
 
+# Responsive Tables
+
+table-responsive
+
+
