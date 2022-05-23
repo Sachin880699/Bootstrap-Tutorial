@@ -492,5 +492,22 @@ Example :
 Example : 
 
 
+            <button class="btn btn-primary">
+              <span class="spinner-border spinner-border-sm"></span>
+            </button>
 
+            <button class="btn btn-primary">
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+
+            <button class="btn btn-primary" disabled>
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+
+            <button class="btn btn-primary" disabled>
+              <span class="spinner-grow spinner-grow-sm"></span>
+              Loading..
+            </button>
 
