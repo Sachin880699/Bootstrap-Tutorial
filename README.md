@@ -525,6 +525,15 @@ Example :
               <button type="button" class="btn btn-primary">Sony</button>
             </div>
             
+            
 
-# Vertical Button Groups
+____________________________________________________________________________________
+
+
+# bootstrap break 
+
+                        <div class="w-100"></div>
+                        
+                        
+# row Columns class
 
