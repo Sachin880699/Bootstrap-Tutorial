@@ -535,5 +535,92 @@ ________________________________________________________________________________
                         <div class="w-100"></div>
                         
                         
-# row Columns class
+_______________________________________________________________________________
+_______________________________________________________________________________
+# Padding class for different sies
+_______________________________________________________________________________
+
+
+
+
+# padding class for different Break points
+
+                     
+
+1 ) Extra Large   : .p-xl*
+2 ) Large         : .p-lg-*
+3 ) Medium        : pl-md-*
+4 ) Small         : .p-sm-*
+5 ) Extra Small   : 
+
+
+
+
+Bootstrap Example : 
+
+
+                        <div class="container">
+                          <div class="row p-md-5">
+                            <div class="col-md-4 pt-lg-5 pb-md-5 pink">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make </div>
+                            <div class="col-md-4 pl-0 pr-5 green">is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+                          </div>
+                        </div>
+
+2 ) Style.css
+
+
+
+                        .container{
+                            border:5px solid black;
+                        }
+                        .row {
+                            border 3px solid red;
+                        }
+                        .pink{
+                            background: pink;
+                        }
+                        .orange{
+                            background :orange;
+                        }
+                        .blue{
+                            background:#007bff;
+                        }
+                        .green{
+                            background:yellowgreen;
+                        }
+
+
+_______________________________________________________________________________________________________
+# Horizontal Alignment
+
+class  = .justify-content-end
+class  = .justify-content-start
+class  = .justify-content-center
+
+
+also we can can do ti seprate for that
+
+Ani yacha vapar alignment change karnyasathi hoto . hya class la apan row var lavto
+
+class = .justify-content-between
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
