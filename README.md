@@ -607,20 +607,350 @@ class = .justify-content-between
 
 
 
+________________________________________________________________________________________________________
+# Vertical Alignment
+
+<img src="https://i.stack.imgur.com/mOvi2.png" width="300" height="200"/>
+
+class name = .align-items-start
+
+alignment from buttom
+
+class = .align-items-end
+
+class = .align-items-center
+
+class = .align-items-stretch
+
+class = align-items-baseline
+
+
+
+HTML :
+
+                        <div class="container">
+                          <div class="row align-items-center">
+                            <div class="col-md-3 pink">
+                              <h2> Col A</h2>
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </div>
+                            <div class="col-md-3 green">
+                              <h2> Col B</h2>
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s
+                            </div>
+                             <div class="col-md-3 blue">
+                              <h2> Col B</h2>
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                            </div>
+                          </div>
+                          
+                          
+CSS
+
+
+                        .container{
+                            border:5px solid black;
+                        }
+                        .row {
+                            border:3px solid red;
+                        }
+                        .pink{
+                            background: pink;
+                        }
+                        .orange{
+                            background :orange;
+                        }
+                        .blue{
+                            background:#007bff;
+                        }
+                        .green{
+                            background: #8fd46a;
+                        }
+
+
+
+# Lign-temms for different break points
+
+
+1 ) Extra Large       =  .align-items-xl-start
+2 ) Large             =  .align-items-lg-start
+3 ) Medium            =  .align-items-md-start
+4 ) Small             =  .align-items-sm-start
+5 ) Extra Small       =  no class for extra small
+
+
+
+Example :
+
+
+
+
+            <div class="container">
+              <div class="row align-items-lg-center">
+                <div class="col-md-3 pink">
+                  <h2> Col A</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </div>
+                <div class="col-md-3 green">
+                  <h2> Col B</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s
+                </div>
+                 <div class="col-md-3 blue">
+                  <h2> Col B</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                </div>
+              </div>
+
+
+
+_________________________________________________________________________________________
+# Vertical Alignment Align-Content
+
+
+<img src="https://user.oc-static.com/upload/2018/06/14/15289918266602_2.png" width="300" height="200"/>
+
+
+use clas on row _______________________
+
+
+
+1 ) class = align-content-start
+
+Desc : Yane sagle box he top la yetil ani buttom la space rahil
+
+
+
+2 ) class = align-content-end
+
+Desc : Yane sagle box he buttom la yetil ani top la space rahil
+
+
+3 ) class = align-content-center
+
+Desc = Yane content box ahet te center la yetil hi tevach use hoil jeva apan row la hight use keiya
+
+4 ) class = .align-content-between
+
+Desc = Yane jo pan space ahe to middile la yeil
+
+
+5 ) class = .align-content-around
+
+Desc = Yane kay hoil pratek box madhe thodi thodi space yeil
 
 
 
 
 
 
+HTML :
+
+
+                        <div class="container">
+                          <div class="row align-content-start" style="height:400px;">
+                            <div class="col-md-3 pink">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            </div>
+                            <div class="col-md-7 green">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s
+                            </div>
+                             <div class="col-md-5 blue">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                            </div>
+                            <div class="col-md-3 orange">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                            </div>
+                             <div class="col-md-4 blue">
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.  dummy text of the printing and typesetting industry
+                            </div>
+                          </div>
+                        </div>
+
+
+CSS :
+
+
+            .container{
+                border:5px solid black;
+            }
+            .row {
+                border:3px solid red;
+            }
+            .pink{
+                background: pink;
+            }
+            .orange{
+                background :orange;
+            }
+            .blue{
+                background:#007bff;
+            }
+            .green{
+                background: #8fd46a;
+            }
+
+
+
+# Align-content classes for different Break Point
+
+
+1 ) Extra Large  = .align-content-xl-start
+2 ) Large        = .align-content-lg-start
+3 ) Medium       = .align-content-md-start
+4 ) small        = .align-content-sm-start
 
 
 
 
 
+_______________________________________________________________________________________________
+# Vertical Alignment Align-Self
 
 
 
+<img src="https://sharkcoder.com/files/article/bootstrap_align-self.png" width="300" height="200"/>
+
+
+Ya madhe phakta akach box la alignment deta yete
+
+1 ) class    = .align-self-end
+2 ) class    = .align-self-center
+3 ) class    = .align-self-stretch
+4 ) class    = .align-self-baseline
+
+Desc : yane text line alignment karin
+
+5 ) class    =  .align-self-auto
+
+Desc = row ahe ani row var hight lavliya tar tar to box la bottom la karti
+
+
+Ya madhe class la div var latop
+
+
+Example :
+
+                <div class="col-md-3 align-self-end green">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s
+                </div>
+                
+
+
+HTML :
+
+
+            <div class="container">
+              <div class="row" style="height:300px;">
+                <div class="col-md-3 align-self-start pink">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </div>
+                <div class="col-md-3 align-self-center green">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s
+                </div>
+                <div class="col-md-5 align-self-end orange">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                </div>
+              </div>
+            </div>
+
+
+
+CSS :
+
+            .container{
+                border:5px solid black;
+            }
+            .row {
+                border:3px solid red;
+            }
+            .pink{
+                background: pink;
+            }
+            .orange{
+                background :orange;
+            }
+            .blue{
+                background:#007bff;
+            }
+            .green{
+                background: #8fd46a;
+            }
+            
+            
+
+____________________________________________________________________________________________
+
+# Flex Direction classes
+
+ya madhe box che direction apan change karu shaktoy
+
+ani he class row var lavto
+
+
+<img src="https://somospnt.com/images/flex-direction.png" width="300" height="200"/>
+
+1 ) class = flex-row-reverse
+
+Desc : ha horizantally work karin
+
+2 ) class = .flex-column
+
+Desc : ha vertically order ne yein
+
+3 ) class = .flex-column-reverse
+
+Desc : jar reverse ordern ne karaychi asel tar
+
+4 ) class = .flex-nowrap
+
+Desc  : jar aka box madhe pahije asel . mhaje next block khalchay linke la nako asel teva use karto
+
+5 ) class = flex-wrap-reverse
+
+
+
+
+Example :
+
+
+
+            <div class="container">
+              <div class="row flex-row-reverse">
+                <div class="col pink">
+                  <h2>Col A</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                </div>
+                <div class="col green">
+                  <h2>Col B</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s
+                </div>
+                <div class="col flex-fill blue">
+                  <h2>Col C</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                </div>
+                <div class="col orange">
+                  <h2>Col D</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                </div>
+
+                <div class="col flex-fill cyan">
+                  <h2>Col E</h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. ever since the 1500s . dummy text of the printing and typesetting industry
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+# Flext direction classes for different break points
+
+1 ) Extra Large    : .flex-xl-row
+2 ) Large          : .flex-lg-row
+3 ) Medium         : .flex-md-row
+4 ) Small          : .flex-sm-row
+5 ) Extra Small    : 
 
 
 
