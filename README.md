@@ -953,4 +953,31 @@ Example :
 5 ) Extra Small    : 
 
 
+_________________________________________________________________________________
+
+# Display Utilities
+
+1 ) display:none;          ------> .d-none
+2 ) display:inline;        ------> .d-inline
+3 ) display:inline-block   ------> .d-inline-block
+4 ) display:block          ------> .d-block
+5 ) display:table          ------> .d-table
+6 ) display:table-cell     ------> .d-table-cell
+7 ) display:table-row      ------> .d-table-row
+8 ) display:flex;          ------> .d-flex
+9 ) display:inline         ------> .d-inline-flex
+
+
+
+
+# Display classes for diffrent break poin 
+Yane diffrent size var block hide and show hoil
+
+1 ) Extra Large        : .d-xl-none
+2 ) Large              : .d-lg-none
+3 ) Medium             : .d-md-none
+4 ) Small              : .d-sm-none
+5 ) Extra Small        : .d-none
+
+
 
